@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\admin\IdeaProjects\entity_tg\src\main\scala\src\main\scala\tg_bot\https_tg.scala:20:27: object Source is not a member of package io[0m
+[0m[[0m[31merror[0m] [0m[0m    val responseData = io.Source.fromInputStream(connection.getInputStream).mkString[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

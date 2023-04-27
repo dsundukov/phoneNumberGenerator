@@ -1,0 +1,78 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.5.5 (Oracle Corporation Java 16.0.2)[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.loadUnit: plugins took 80.348266ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.loadUnit: defsScala took 0.005862ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\admin\.sbt\1.0\plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\admin\.sbt\1.0\plugins, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.418733 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                                  Load.resolveProject(global-plugins) took 2.229182ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                                Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\admin\.sbt\1.0\plugins, plugins: List(<none>))) took 5.703638ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\admin\.sbt\1.0\plugins, returning: (global-plugins)[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.loadUnit: loadedProjectsRaw took 8.042253ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.loadUnit: cleanEvalClasses took 0.025893ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                            Load.loadUnit(file:/C:/Users/admin/.sbt/1.0/plugins/, ...) took 91.280199ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                          Load.apply: load took 95.093699ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                          Load.apply: resolveProjects took 0.21984ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                          Load.apply: finalTransforms took 8.247925ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                          Load.apply: config.delegates took 0.640469ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                          Load.apply: Def.make(settings)... took 77.734607ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                          Load.apply: structureIndex took 29.724872ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                          Load.apply: mkStreams took 0.010259ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading global plugins from C:\Users\admin\.sbt\1.0\plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m                        Load.defaultLoad until apply took 435.638776ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                                  Load.loadUnit: plugins took 27.87235ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                                  Load.loadUnit: defsScala took 0.005863ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\admin\IdeaProjects\entity_tg\project[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\admin\IdeaProjects\entity_tg\project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.502762 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                                      Load.resolveProject(entity_tg-build) took 2.714785ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                                    Load.loadTransitive: finalizeProject(Project(id entity_tg-build, base: C:\Users\admin\IdeaProjects\entity_tg\project, plugins: List(<none>))) took 6.246888ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in C:\Users\admin\IdeaProjects\entity_tg\project, returning: (entity_tg-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m                                  Load.loadUnit: loadedProjectsRaw took 8.129211ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                                  Load.loadUnit: cleanEvalClasses took 0.035663ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                                Load.loadUnit(file:/C:/Users/admin/IdeaProjects/entity_tg/project/, ...) took 36.927334ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.apply: load took 39.256177ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.apply: resolveProjects took 0.290678ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.apply: finalTransforms took 9.380836ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.apply: config.delegates took 0.532503ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.apply: Def.make(settings)... took 71.221468ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.apply: structureIndex took 23.556149ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.apply: mkStreams took 0.006351ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from C:\Users\admin\IdeaProjects\entity_tg\project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m                            Load.loadUnit: plugins took 288.07942ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m                            Load.loadUnit: defsScala took 0.005863ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory C:\Users\admin\IdeaProjects\entity_tg[0m
+[0m[[0m[0mdebug[0m] [0m[0m                              Load.loadUnit: mkEval took 0.455803ms[0m

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="com.softwaremill.sttp.client3:akka-http-backend_2.12:3.3.7" type="repository">
+    <properties maven-id="com.softwaremill.sttp.client3:akka-http-backend_2.12:3.3.7" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/akka-http-backend_2.12-3.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-library-2.12.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/core_2.12-3.3.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/core_2.12-1.4.7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/core_2.12-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ws_2.12-1.2.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/akka-http_2.12-10.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/akka-http-core_2.12-10.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/akka-parsing_2.12-10.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hpack-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/akka_2.12-1.2.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
