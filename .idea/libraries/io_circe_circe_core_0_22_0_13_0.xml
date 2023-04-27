@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="io.circe:circe-core_0.22:0.13.0" type="repository">
+    <properties maven-id="io.circe:circe-core_0.22:0.13.0" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/circe-core_0.22-0.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/circe-numbers_0.22-0.13.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dotty-library_0.22-0.22.0-RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/scala-library-2.13.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cats-core_2.13-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cats-macros_2.13-2.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/cats-kernel_2.13-2.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

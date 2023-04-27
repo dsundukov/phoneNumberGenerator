@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="org.scala-lang.modules:scala-asm:9.1.0-scala-1" type="repository">
+    <properties maven-id="org.scala-lang.modules:scala-asm:9.1.0-scala-1" />
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/scala-asm-9.1.0-scala-1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
